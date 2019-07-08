@@ -11,5 +11,5 @@ setInterval (function () {
       ? "0" +date.getSeconds()
       : date.getSeconds())
   ].join(":");
-  document.getElementById("Clock").innerHTML = format;
+  document.getElementById("clock").innerHTML = format;
 }, 10)
